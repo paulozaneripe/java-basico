@@ -6,7 +6,7 @@ public class Programa {
         String[] args = {"multiplica","1","2","5","8","9"};
 
         if(Objects.nonNull(args) && args.length > 0) {
-            if(args[0] == "soma" && args.length > 1) {
+            if("soma".equals(args[0]) && args.length > 1) {
                 Integer soma = 0;
 
                 for(int i = 1; i < args.length; i++) {
@@ -15,7 +15,7 @@ public class Programa {
 
                 System.out.println("Resultado da soma: " + soma);
 
-            } else if(args[0] == "multiplica" && args.length > 1) {
+            } else if("multiplica".equals(args[0]) && args.length > 1) {
                 Integer multiplicacao = 1;
                 
                 for(int i = 1; i < args.length; i++) {
