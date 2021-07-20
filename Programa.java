@@ -1,7 +1,6 @@
 import java.util.Objects;
 
 public class Programa {
-    
     public static void main(String[] args_) {
         String[] args = {"multiplica","1","2","5","8","9"};
 
