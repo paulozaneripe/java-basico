@@ -5,7 +5,7 @@ import java.util.Objects;
 
 public class Programa {
     public static void main(String[] args_) {
-        String[] args = {"add","1","2"};
+        String[] args = {"explica","1","2"};
 
         if(Objects.nonNull(args) && args.length > 0) {
             if("soma".equals(args[0])) {
